@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TamCodeTheWorld</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/fontawesome-free-5.15.3-web/css/all.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/Photo/eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="program.html">PROGRAM</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <h1>Our certificate & Programs for 2021</h1>
+    </section>
+
+<!------Blog page content----->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="/Photo/certificate2.jpeg">
+            <h2>Our certificate & Programs for 2021</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id possimus unde incidunt inventore magnam delectus laborum officia quo velit optio, alias necessitatibus. Cumque sunt nobis, voluptas quam sint magnam sequi facilis necessitatibus! Earum consequatur quibusdam autem illo maxime modi porro?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quos odit officia, labore reiciendis neque maxime nulla ut corrupti sint aut porro molestiae est? Enim veniam, reiciendis aliquid atque similique maxime deleniti nemo explicabo quo beatae laborum libero sint unde laudantium perspiciatis? Assumenda, commodi est. Nostrum labore, architecto rerum iure tenetur velit minus ratione vitae dolorem, sed eaque est omnis odit! Aperiam expedita odio facilis repudiandae. Mollitia minus dolorem fugit.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure, voluptas eos eum voluptatibus unde asperiores perferendis, laudantium, consectetur est impedit officia. Veritatis dicta placeat architecto atque delectus quas accusamus non quod nisi saepe excepturi eos neque totam, deserunt a vel deleniti, quos recusandae cupiditate ex temporibus. Obcaecati, quas deleniti!</p>
+
+
+            <div class="comment-box">
+                <h3>Leave us a letter</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Your name">
+                    <input type="email" placeholder="Your email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+        <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Auto CAD</span>
+                <span>42</span>
+            </div>
+    </div>
+</section>
+
+
+<!------Footer----->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam minus maiores cum qui saepe, <br>veritatis numquam optio pariatur dolores asperiores, eveniet dolore sapiente aliquam harum nostrum.<br> Soluta nam eos ex odio hic in aliquid eligendi quidem obcaecati? Laborum, animi error.</p>
+    <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart"></i> Life is good </p>
+
+</section>
+
+
+
+
+<!---Javascript for Toggle Menu--->   
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TamCodeTheWorld</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/fontawesome-free-5.15.3-web/css/all.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/Photo/eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="program.html">PROGRAM</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <h1>Program</h1>
+    </section>
+<!----course---->
+<section class="course">
+    <h1>Made for students</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, fugit.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non possimus asperiores enim, autem voluptates sint veniam optio neque mollitia ad magnam rerum architecto esse distinctio eaque fuga quis. Similique, aspernatur.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non possimus asperiores enim, autem voluptates sint veniam optio neque mollitia ad magnam rerum architecto esse distinctio eaque fuga quis. Similique, aspernatur.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non possimus asperiores enim, autem voluptates sint veniam optio neque mollitia ad magnam rerum architecto esse distinctio eaque fuga quis. Similique, aspernatur.</p>
+        </div>
+    </div>
+</section>
+
+<!----- facilities----->
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="/Photo/eduford_img/library.png">
+            <h3>Library</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, consectetur?</p>
+        </div>
+        <div class="facilities-col">
+            <img src="/Photo/eduford_img/basketball.png">
+            <h3>Playground</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, consectetur?</p>
+        </div>
+        <div class="facilities-col">
+            <img src="/Photo/eduford_img/cafeteria.png">
+            <h3>Coffee shop</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, consectetur?</p>
+        </div>
+    </div>
+</section>
+
+<!------Footer----->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam minus maiores cum qui saepe, <br>veritatis numquam optio pariatur dolores asperiores, eveniet dolore sapiente aliquam harum nostrum.<br> Soluta nam eos ex odio hic in aliquid eligendi quidem obcaecati? Laborum, animi error.</p>
+    <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart"></i> Life is good </p>
+
+</section>
+
+
+
+
+<!---Javascript for Toggle Menu--->   
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+</script>
+</body>
+</html>
